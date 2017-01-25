@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+
+    <!-- Category name for catalog [CHAR LIMIT=20] -->
+    <string name="category_catalog">Catalog</string>
+
+    <!-- Category name for the Now Playing screen [CHAR LIMIT=20] -->
+    <string name="category_nowplaying">Now Playing</string>
+
+    <!-- Category name for the Purchase screen [CHAR LIMIT=20] -->
+    <string name="category_purchase">Purchase</string>
+
+    <!-- Category name for the Search screen [CHAR LIMIT=20] -->
+    <string name="category_search">Search</string>
+
+    <string name="category_catalogsortgenre">Sort Music by Genre</string>
+
+    <string name="category_catalogsortband">Sort Music by Band</string>
+
+    <string name="category_nowplayingpause">Pause playing music</string>
+
+    <string name="category_nowplayingresume">Resume playing music</string>
+
+    <string name="category_gotonowplaying">go to Now Playing</string>
+
+    <string name="category_gotocatalog">go to Music Catalog</string>
+
+    <string name="category_gotopurchase">go to Purchase page</string>
+
+    <string name="category_gotosearch">go to Search page</string>
+
+    <string name="category_gotomain">go to Main Menu</string>
+
+</resources>

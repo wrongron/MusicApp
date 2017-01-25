@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nowplaying"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.musicapp.NowPlayingActivity">
+
+
+    <TextView
+        android:id="@+id/purchase"
+        style="@style/CategoryStyle"
+        android:background="@color/category_purchase"
+        android:text="@string/category_gotopurchase" />
+
+    <TextView
+        android:layout_below="@id/purchase"
+        android:id="@+id/nowplayingpause"
+        style="@style/CategoryStyle"
+        android:background="@color/category_catalog"
+        android:text="@string/category_nowplayingpause" />
+
+    <TextView
+        android:layout_below="@id/nowplayingpause"
+        android:id="@+id/nowplayingresume"
+        style="@style/CategoryStyle"
+        android:background="@color/category_nowplaying"
+        android:text="@string/category_nowplayingresume" />
+
+    <TextView
+        android:layout_below="@id/nowplayingresume"
+        android:id="@+id/main"
+        style="@style/CategoryStyle"
+        android:background="@color/category_purchase"
+        android:text="@string/category_gotomain" />
+
+    <TextView
+        android:layout_below="@id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:text="This page would show what song is playing at present. The buttons would allow you to pause and resume." />
+
+</RelativeLayout>
+
