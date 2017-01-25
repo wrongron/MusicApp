@@ -15,14 +15,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CatalogActivity"
-            android:label="@string/category_catalog"/>
-        <activity android:name=".NowPlayingActivity"
-            android:label="@string/category_nowplaying"/>
-        <activity android:name=".PurchaseActivity"
-            android:label="@string/category_purchase"/>
-        <activity android:name=".SearchActivity"
-            android:label="@string/category_search"/>
+        <activity
+            android:name=".CatalogActivity"
+            android:label="@string/category_catalog" />
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="@string/category_nowplaying" />
+        <activity
+            android:name=".PurchaseActivity"
+            android:label="@string/category_purchase" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/category_search" />
     </application>
 
 </manifest>
